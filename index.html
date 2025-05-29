@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple HTML template for a Netflix-like application">
+    <title>NetFlix</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="NetFlix logo" id="logo">
+        <div class="cont-2">
+            <select name="language" id="langDrop">
+                <option value="en" selected>English</option>
+                <option value="es">Spanish</option>
+                <option value="fr">French</option>
+                <option value="de">German</option>
+                <option value="it">Italian</option>
+                <option value="zh">Chinese</option>
+                <option value="hi">Hindi</option>
+            </select>
+            <button id="sign-in">Sign In</button>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Unlimited movies, TV shows and more</h1>
+            <h3>Starts at ₹149. Cancel at any time.</h3>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <form id="email-form" class="email-form">
+                <input type="email" placeholder="Email address" required>
+                <button type="submit">Get Started</button>
+            </form>
+        </section>
+        <section class="trending">
+            <h2>Trending Now</h2>
+            <div class="trending-list">
+                <div>
+                    <img src="images/Chhaava_Netflix.jpg" alt="Trending Movie 1">
+                </div>
+                <div>
+                    <img src="images/the royals.jpeg" alt="Trending Movie 2">
+                </div>
+                <div>
+                    <img src="images/the diplomat.jpeg" alt="Trending Movie 3">
+                </div>
+                <div>
+                    <img src="images/good bad ugly.jpeg" alt="Trending Movie 4">
+                </div>
+                <div>
+                    <img src="images/sikandar.jpeg" alt="Trending Movie 5">
+                </div>
+            </div>
+        </section>
+
+    </main>
+</body>
+
+</html>
